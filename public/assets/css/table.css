@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* direction: rtl; */
+    background-color: white !important;
+}
+
+.py-4{
+    padding-top: 0 !important;
+}
+.table{
+    width: 100%;
+    margin-top: -1.5rem !important;
+}
+
+.table_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(240,240,240);
+}
+.table_header p{
+    color: #000000;
+}
+
+button{
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.add_new{
+    border-radius: 6px;
+    padding: 10px 20px;
+    color: #ffffff;
+    background-color: #0298cf !important;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: larger;
+}
+
+
+/* input{
+    padding: 10px 20px;
+    margin: 0 10px;
+    outline: none;
+    border: 1px solid #0298cf;
+    border-radius: 6px;
+    color: #0298cf;
+} */
+
+.table_section{
+    height: 650px;
+    overflow: auto;
+}
+
+table{
+    width: 100%;
+    table-layout: fixed;
+    min-width: 1000px;
+    border-collapse: collapse;
+}
+
+thead th{
+    text-align: center;
+    position: static;
+    top: 0;
+    background-color: #f6f9fc;
+    color: #8493a5;
+    font-size: 15px;
+}
+
+th,td{
+    border-bottom: 1px solid #dddddd !important;
+    padding: 10px 20px;
+    word-break: break-all;
+    text-align: center;
+}
+
+td img{
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #ced0d2;
+}
+
+tr:hover td{
+    color: #0298cf;
+    cursor: pointer;
+    background-color: #f6f9fc;
+}
+
+::placeholder{
+    color: #0298cf;
+}
+
+a.btn-table{
+    color: #000000;
+    padding: 7px 0px;
+    border-radius: 10px;
+}
+button.btn-table{
+    border-radius: 10px;
+}
+
+.btn-table i{
+    padding: 10px;
+}
+
+.edit-color{
+    background-color: #0298cf;
+}
+.delete-color{
+    background-color: #D11A2A;
+}
+.show-color{
+    background-color: #1ad11a;
+}
+
+.action-td{
+    padding: 0;
+}
+
+
+
+
+
+
+
+
